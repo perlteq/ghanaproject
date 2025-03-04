@@ -1,8 +1,8 @@
 <?php
-$host = "localhost"; // Change if necessary
+$host = "mysql.railway.internal"; // Change if necessary
 $user = "root"; // Your database username
-$pass = ""; // Your database password
-$dbname = "api"; // Change this
+$pass = "BpbukztFUbJrwCRIPjMAYBenrrbMIPhv"; // Your database password
+$dbname = "railway"; // Change this
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
